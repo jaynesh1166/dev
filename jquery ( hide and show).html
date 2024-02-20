@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<img src="img/temple.jpeg" width="300px">
+	<button class="hide">Hide</button>
+	<button class="show"> Show</button>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.hide').click(function(){
+             $('img').hide(400);
+			});
+
+			$('.show').click(function(){
+				$('img').show(1000);
+			});
+		});
+	</script>
+
+</body>
+</html>
